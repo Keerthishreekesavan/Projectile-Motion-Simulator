@@ -40,7 +40,7 @@ simulateButton.addEventListener('click', () => {
 });
 
 function simulateProjectile(initialVelocity, launchAngle) {
-    const g = 9.81; // Acceleration due to gravity (m/s^2)
+    const g = 9.81;
     const angleInRadians = (launchAngle * Math.PI) / 180;
 
     const timeOfFlight = (2 * initialVelocity * Math.sin(angleInRadians)) / g;
